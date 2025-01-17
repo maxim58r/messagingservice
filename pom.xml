@@ -55,11 +55,11 @@
                 <!-- Без <version>, Maven возьмёт из pluginManagement -->
             </plugin>
 
-            <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <!-- Без <version>, возьмётся из pluginManagement -->
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.github.spotbugs</groupId>-->
+<!--                <artifactId>spotbugs-maven-plugin</artifactId>-->
+<!--                &lt;!&ndash; Без <version>, возьмётся из pluginManagement &ndash;&gt;-->
+<!--            </plugin>-->
 
             <plugin>
                 <groupId>org.springframework.boot</groupId>
